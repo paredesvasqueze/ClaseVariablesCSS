@@ -13,5 +13,11 @@ h1{
     color: var(--colorencabezados);
 }
 h2{
+    --tamanotexto:1.5rem;
     color: var(--colorencabezados);
+    font-size: var(--tamanotexto);
+}
+
+h3{
+    font-size: var(--tamanotexto);
 }
