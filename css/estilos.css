@@ -32,10 +32,10 @@
     --color-tarjeta: #ffffff;
     --radio-tarjeta: 40px; 
 }
-.tema-morado {
-    --color-principal: #76109e;
+.tema-rosa {
+    --color-principal: #ec0d75;
     --color-fondo: #f6e4f8;
-    --color-texto: #3c0641;
+    --color-texto: #794061;
     --color-tarjeta: #ffffff;
     --radio-tarjeta: 50px; 
 }
