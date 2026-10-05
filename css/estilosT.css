@@ -32,7 +32,13 @@
     --color-tarjeta: #ffffff;
     --radio-tarjeta: 40px; 
 }
-
+.tema-morado {
+    --color-principal: #76109e;
+    --color-fondo: #f6e4f8;
+    --color-texto: #3c0641;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 50px; 
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
