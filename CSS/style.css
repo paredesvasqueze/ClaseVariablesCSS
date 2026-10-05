@@ -25,3 +25,36 @@
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
 }
+
+.tema-amarillo {
+    --color-principal: #d99b00;
+    --color-fondo: #fff8df;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+h1 {
+    color: var(--color-principal);
+}
+
+.tarjeta {
+    background-color: var(--color-tarjeta);
+    border: 3px solid var(--color-principal);
+}
+
+button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
