@@ -3,7 +3,9 @@ lista.addEventListener("input", ()=>{
 document.body.className="",
 document.body.classList.add(lista.value);
 localStorage.setItem("mitema",lista.value);
-}) //localStorage guarda
+}) //localStorage guarda preferencias donde el usuario interactua
+//solo guarda el nombre de la clase el localStorage
+
 
 function cargartemainicial(){
     const  temainicial=localStorage.getItem("mitema");
