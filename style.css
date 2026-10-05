@@ -14,5 +14,7 @@ h1{
 }
 
 h2{
+    --tamanotexto: 1.5rem;
     color: var(--encabezados);
+    font-size:var(--tamanotexto);
 }
