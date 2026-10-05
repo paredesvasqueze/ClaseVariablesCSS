@@ -18,3 +18,7 @@ h2{
     color: var(--encabezados);
     font-size:var(--tamanotexto);
 }
+
+h3{
+    font-size: var(--tamanotexto);
+}
