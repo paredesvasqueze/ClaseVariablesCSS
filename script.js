@@ -17,4 +17,4 @@ function cargartemainicial(){
         console.log(temainicial);
     }
 }
-cargartemainicial()
+cargartemainicial();
