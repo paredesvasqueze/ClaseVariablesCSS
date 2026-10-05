@@ -1,0 +1,17 @@
+:root{
+    --colorfondo: red;
+    --colorletra:black;
+    --colorencabezados: pink;
+}
+
+body{
+    background: var(--colorfondo);
+    color: var(--colorletra);
+}
+
+h1{
+    color: var(--colorencabezados);
+}
+h2{
+    color: var(--colorencabezados);
+}
