@@ -1,40 +1,66 @@
-:root{
-    --colorfondo: rgb(226, 214, 214);
-    --colorletra:black;
-    --colorencabezados: rgb(224, 18, 53);
+:root {
+    --color-principal: #26689d;
+    --color-fondo: #ffffff;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+.tema-azul {
+    --color-principal: #26689d;
+    --color-fondo: #eaf3f9;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 10px; 
+}
+.tema-guinda {
+    --color-principal: #800018;
+    --color-fondo: #f9eeee;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 20px; 
+}
+.tema-verde {
+    --color-principal: #26734d;
+    --color-fondo: #edf8f2;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 30px; 
+}
+.tema-amarillo {
+    --color-principal: #d99b00;
+    --color-fondo: #fff8df;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 40px; 
+}
+.tema-morado {
+    --color-principal: #76109e;
+    --color-fondo: #f6e4f8;
+    --color-texto: #3c0641;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 50px; 
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
 }
 
-body{
-    background: var(--colorfondo);
-    color: var(--colorletra);
+h1 {
+    color: var(--color-principal);
 }
 
-h1{
-    color: var(--colorencabezados);
-}
-h2{
-    --tamanotexto:1.5rem;
-    color: var(--colorencabezados);
-    font-size: var(--tamanotexto);
+.tarjeta {
+    background-color: var(--color-tarjeta);
+    border: 3px solid var(--color-principal);
+    border-radius: var(--radio-tarjeta);
 }
 
-h3{
-    font-size: var(--tamanotexto);
-}
-
-.modoclaro{
-    --colorfondo: rgb(226, 214, 214);
-    --colorletra:black;
-    --colorencabezados: rgb(224, 18, 53);
-}
-
-.modooscuro{
-    --colorfondo: rgb(27, 26, 26);
-    --colorletra:rgb(250, 234, 234);
-    --colorencabezados: rgb(197, 6, 188);
-}
-.modoverde{
-    --colorfondo: rgb(147, 228, 123);
-    --colorletra:black;
-    --colorencabezados: rgb(43, 20, 105);
+button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }
