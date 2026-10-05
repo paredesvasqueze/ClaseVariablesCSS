@@ -5,23 +5,23 @@ const amarillo  = document.getElementById("amarillo");
 const uvita = document.getElementById("uvita");
 
 azul.addEventListener("click", () => {
-    document.body.classList.remove("tema-guinda", "tema-verde");
+    document.body.classList.remove("tema-guinda","tema-verde", "tema-amarillo", "tema-uvita");
     document.body.classList.add("tema-azul");
 });
 
 
 guinda.addEventListener("click", () => {
-    document.body.classList.remove("tema-azul", "tema-verde");
+    document.body.classList.remove("tema-azul","tema-verde", "tema-amarillo","tema-uvita");
     document.body.classList.add("tema-guinda");
 });
 
 verde.addEventListener("click", () => {
-    document.body.classList.remove("tema-azul", "tema-guinda");
+    document.body.classList.remove("tema-azul", "tema-guinda", "tema-amarillo","tema-uvita");
     document.body.classList.add("tema-verde");
 });
 
 amarillo.addEventListener("click",() => {
-    document.body.classList.remove("tema-azul", "tema-guinda","tema-verde");
+    document.body.classList.remove("tema-azul", "tema-guinda","tema-verde","tema-uvita");
     document.body.classList.add("tema-amarillo");
 });
 
