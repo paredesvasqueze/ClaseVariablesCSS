@@ -1,7 +1,7 @@
 :root{
-    --colorfondo: #99d367;
-    --colorletra: #ebeded;
-    --colorencabezados: #ab6969;
+    --colorfondo: white;
+    --colorletra: black;
+    --colorencabezados: #c74b4b;
 }
 
 body{
@@ -22,3 +22,21 @@ h2{
 h3{
     font-size: var(--tamanotexto);
 }
+
+.modooscuro{
+    --colorfondo: rgb(75, 110, 14);
+    --colorletra: rgb(30, 123, 14);
+    --colorencabezados: #a2c98a;
+}
+
+.modoclaro{
+    --colorfondo: rgb(232, 119, 119);
+    --colorletra: rgb(181, 25, 25);
+    --colorencabezados: #4e1010;
+}
+
+.modogreen{
+    --colorfondo: rgb(82, 178, 22);
+    --colorletra: black;
+    --colorencabezados: #1f3a08;
+} /*clases*/
