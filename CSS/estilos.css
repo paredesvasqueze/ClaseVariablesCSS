@@ -3,6 +3,7 @@
     --color-fondo: #ffffff;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
+    --radio-tarjeta: 10px;
 }
 
 .tema-azul {
@@ -10,6 +11,7 @@
     --color-fondo: #eaf3f9;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
+    --radio-tarjeta: 10px;
 }
 
 .tema-guinda {
@@ -17,6 +19,7 @@
     --color-fondo: #f9eeee;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
+    --radio-tarjeta: 20px;
 }
 
 .tema-verde {
@@ -24,6 +27,22 @@
     --color-fondo: #edf8f2;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
+    --radio-tarjeta: 30px;
+}
+
+.tema-amarillo {
+    --color-principal: #d99b00;
+    --color-fondo: #fff8df;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+.tema-morado {
+    --color-principal: #6b3fa0;
+    --color-fondo: #f3ecfa;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+    --radio-tarjeta: 16px;
 }
 
 body {
@@ -40,6 +59,7 @@ h1 {
 .tarjeta {
     background-color: var(--color-tarjeta);
     border: 3px solid var(--color-principal);
+    border-radius: var(--radio-tarjeta);
 }
 
 button {
