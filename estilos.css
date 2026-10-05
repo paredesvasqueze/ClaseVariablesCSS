@@ -25,7 +25,7 @@ h3{
 
 .modooscuro{
     --colorfondo: rgb(75, 110, 14);
-    --colorletra: rgb(30, 123, 14);
+    --colorletra: rgb(255, 255, 255);
     --colorencabezados: #a2c98a;
 }
 
@@ -40,3 +40,10 @@ h3{
     --colorletra: black;
     --colorencabezados: #1f3a08;
 } /*clases*/
+
+.modomarelo{
+    --colorfondo: rgb(221, 239, 24);
+    --colorletra: rgb(236, 26, 26);
+    --colorencabezados: #421f01;
+}
+
