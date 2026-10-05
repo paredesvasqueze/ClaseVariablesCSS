@@ -1,7 +1,7 @@
 :root{
-    --color-fondo: rgb(89, 21, 32);
-    --letras:rgb(234, 176, 217);
-    --encabezado:yellow;
+    --color-fondo: rgb(250, 218, 223);
+    --letras:rgb(51, 46, 49);
+    --encabezado:rgb(117, 154, 90);
 }
 
 body{
@@ -15,10 +15,34 @@ h1{
 
 h2{
     --tamanotexto: 1.5rem;
-    color: var(--encabezados);
+    color: var(--encabezado);
     font-size:var(--tamanotexto);
 }
 
 h3{
     font-size: var(--tamanotexto);
+}
+
+.modoclaro{
+    --color-fondo: rgb(250, 218, 223);
+    --letras:rgb(51, 46, 49);
+    --encabezado:rgb(117, 154, 90);
+}
+
+.modooscuro{
+    --color-fondo: rgb(83, 25, 34);
+    --letras:rgb(238, 196, 221);
+    --encabezado:rgb(54, 114, 58);
+}
+
+.modogren{
+    --color-fondo: rgb(76, 147, 39);
+    --letras:rgb(192, 147, 87);
+    --encabezado:rgb(117, 154, 90);
+}
+
+.modored{
+    --color-fondo: rgb(162, 20, 42);
+    --letras:rgb(197, 183, 56);
+    --encabezado:rgb(152, 178, 217);
 }
