@@ -1,0 +1,27 @@
+:root{
+--colorfondo: #dccf1e;  
+--colorletra: #1e1c1b; 
+--colorencabezados: #bc6b29;
+
+}
+
+body{
+background: var(--colorfondo);
+color: var(--colorletra);
+}
+
+h1{
+    color: var(--colorencabezados);
+}
+
+h2{
+    --tamanotexto: 1.5rem;
+    color: var(--colorencabezados);
+    font-size: var(--tamanotexto);
+}
+
+h3{
+    font-size: var(--tamanotexto);
+}
+
+
