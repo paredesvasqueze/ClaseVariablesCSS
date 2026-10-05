@@ -1,7 +1,7 @@
 :root{
-    --colorfondo: red;
+    --colorfondo: rgb(226, 214, 214);
     --colorletra:black;
-    --colorencabezados: pink;
+    --colorencabezados: rgb(224, 18, 53);
 }
 
 body{
@@ -20,4 +20,21 @@ h2{
 
 h3{
     font-size: var(--tamanotexto);
+}
+
+.modoclaro{
+    --colorfondo: rgb(226, 214, 214);
+    --colorletra:black;
+    --colorencabezados: rgb(224, 18, 53);
+}
+
+.modooscuro{
+    --colorfondo: rgb(27, 26, 26);
+    --colorletra:rgb(250, 234, 234);
+    --colorencabezados: rgb(197, 6, 188);
+}
+.modoverde{
+    --colorfondo: rgb(147, 228, 123);
+    --colorletra:black;
+    --colorencabezados: rgb(43, 20, 105);
 }
