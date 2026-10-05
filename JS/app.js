@@ -1,6 +1,8 @@
 const azul = document.getElementById("azul");
 const guinda = document.getElementById("guinda");
 const verde = document.getElementById("verde");
+const amarillo  = document.getElementById("amarillo");
+const uvita = document.getElementById("uvita");
 
 azul.addEventListener("click", () => {
     document.body.classList.remove("tema-guinda", "tema-verde");
@@ -19,6 +21,11 @@ verde.addEventListener("click", () => {
 });
 
 amarillo.addEventListener("click",() => {
-        document.body.classList.remove("tema-azul", "tema-guinda","tema-verde");
+    document.body.classList.remove("tema-azul", "tema-guinda","tema-verde");
     document.body.classList.add("tema-amarillo");
-})
+});
+
+uvita.addEventListener("click",() => {
+    document.body.classList.remove("tema-azul", "tema-guinda","tema-verde", "tema-amarillo");
+    document.body.classList.add("tema-uvita");
+});

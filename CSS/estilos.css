@@ -30,14 +30,21 @@
     --radio-tarjeta: 30px; 
 }
 
-.tema-amarillo {
+.tema-amarillo{
     --color-principal: #d99b00;
     --color-fondo: #fff8df;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
-    --radio-tarjeta: 40px; 
+    --radio-tarjeta: 35px; 
 }
 
+.tema-uvita {
+    --color-principal: #b3307a;
+    --color-fondo: #470964;
+    --color-texto: #0b020a;
+    --color-tarjeta: #fffbfb;
+    --radio-tarjeta: 40px; 
+}
 
 body {
     margin: 0;
