@@ -26,9 +26,9 @@
     --color-tarjeta: #ffffff;
 }
 
-.tema-amarillo {
-    --color-principal: #d99b00;
-    --color-fondo: #fff8df;
+.tema-rosado {
+    --color-principal: #f069ca;
+    --color-fondo: #5c3148;
     --color-texto: #222222;
     --color-tarjeta: #ffffff;
 }
@@ -58,3 +58,12 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.tema-azul { --radio-tarjeta: 10px; }
+.tema-guinda { --radio-tarjeta: 20px; }
+.tema-verde { --radio-tarjeta: 30px; }
+
+.tarjeta {
+    border-radius: var(--radio-tarjeta);
+}
+
