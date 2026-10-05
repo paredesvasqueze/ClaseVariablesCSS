@@ -1,0 +1,18 @@
+:root{
+    --color-fondo: rgb(89, 21, 32);
+    --letras:rgb(234, 176, 217);
+    --encabezado:yellow;
+}
+
+body{
+    background-color: var(--color-fondo);
+    color: var(--letras);
+}
+
+h1{
+    color: var(--encabezados);
+}
+
+h2{
+    color: var(--encabezados);
+}
