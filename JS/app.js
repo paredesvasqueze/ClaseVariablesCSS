@@ -17,3 +17,8 @@ verde.addEventListener("click", () => {
     document.body.classList.remove("tema-azul", "tema-guinda");
     document.body.classList.add("tema-verde");
 });
+
+amarillo.addEventListener("click",() => {
+        document.body.classList.remove("tema-azul", "tema-guinda","tema-verde");
+    document.body.classList.add("tema-amarillo");
+})

@@ -26,6 +26,14 @@
     --color-tarjeta: #ffffff;
 }
 
+.tema-amarillo {
+    --color-principal: #d99b00;
+    --color-fondo: #fff8df;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
