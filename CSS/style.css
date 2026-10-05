@@ -1,0 +1,27 @@
+:root {
+    --color-principal: #26689d;
+    --color-fondo: #ffffff;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+.tema-azul {
+    --color-principal: #26689d;
+    --color-fondo: #eaf3f9;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+.tema-guinda {
+    --color-principal: #800018;
+    --color-fondo: #f9eeee;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}
+
+.tema-verde {
+    --color-principal: #26734d;
+    --color-fondo: #edf8f2;
+    --color-texto: #222222;
+    --color-tarjeta: #ffffff;
+}

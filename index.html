@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Sistema de Temas</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
-        <h1>Angeles Portilla</h1>
-        <h2>Prueba de cambio</h2>
-    </header>
-
-    <main>
-        <section>
-            <h3>Probando Git</h3>
-            <p>Esto es un párrafo</p>
-            <select  id="tema">
-                <option value="modoclaro">Claro</option>
-                <option value="modooscuro">Oscuro</option>
-                <option value="modogren">Verde</option>
-                <option value="modored">Rojo</option>
-            </select>
+    <main class="contenedor">
+        <h1>Tienda Nova</h1>
+        <p>Selecciona un tema para cambiar la apariencia.</p>
+        <div class="botones">
+            <button id="azul">Azul</button>
+            <button id="guinda">Guinda</button>
+            <button id="verde">Verde</button>
+        </div>
+        <section class="tarjeta">
+            <h2>Producto destacado</h2>
+            <p>Laptop profesional para estudiantes de Diseño y Programación Web.</p>
+            <strong>S/ 2,899</strong>
+            <br><br>
+            <button>Comprar</button>
         </section>
     </main>
-
-    <script src="./script.js"></script>
+    <script src="./JS/app.js"></script>
 </body>
 </html>
